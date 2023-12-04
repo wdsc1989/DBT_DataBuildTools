@@ -2,8 +2,8 @@ version: 2
 
 sources:
   - name: northwind
-    database: bv-dbt-treinamento  
-    schema: raw_northwind
+    database: bv-dbt-treinamento-407116  
+    schema: dbt_willian_carvalho
     description: "Essa é a fonte de dados da Northwind."
     tables:
       - name: orders
