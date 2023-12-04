@@ -1,7 +1,5 @@
-
 target/
 dbt_packages/
 logs/
-
 credentials/
 venv/
