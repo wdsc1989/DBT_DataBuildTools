@@ -6,9 +6,9 @@
 
 with raw_table as (
     select
-        orderID as order_id
-        , productID as product_id
-        , cast(unitPrice as numeric) as unit_price
+        order_id as order_id
+        , product_id as product_id
+        , cast(unit_price as numeric) as unit_price
         , quantity
         , cast(discount as numeric) as discount
     from {{ source('northwind', 'order_details') }}
